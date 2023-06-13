@@ -1,9 +1,81 @@
-body {
-    background-color:FFFFFF;
-}
 @font-face{
 font-family:"PT Sans";
-
 font-style: normal;
 font-weight: 400;
+src: url("../fonts/ptsans-400.woff2") format("woff2");
+display: swap;
+}
+
+@font-face{
+    font-family:"PT Sans";
+    font-style:"normal";
+    font-weight: 700;
+    src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family:"PT Sans" , sans-serif;
+    font-size: 18px;
+
+}
+/* Pages */
+.page-header{
+    color:#FFFFFF;
+    background-color:#FFFFFF;
+
+}
+.navigation-link{
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color:#000000;
+}
+
+.main-index {
+    background-image: url("../images/landscape.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+/* List */
+.advantages h3{
+    font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+
+
+}
+/* Title */
+.advantages-title {
+    font-family:"PT Sans", sans-serif;
+}
+.utilities-title {
+
+}
+.page-footer{
+
+}
+
+.inner-header-title{
+
+}
+
+/*Breadcrumbs*/
+
+.breadcrumbs {
+    color:
+}
+
+/*Link */
+.breadcrumbs-link {
+    color:
+}
+
+/* Title */
+.catalog-filter-title {
+
 }
